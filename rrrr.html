@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rrrr.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="grashoff">
+            <img src="FourBarChain.png">
+            <p>In the study of mechanisms,<span> a four-bar linkage</span>, also called a four-bar, 
+                is the simplest closed-chain movable linkage. It consists of <span>four bodies</span>, 
+                called bars or links, connected in a loop by<span> four joints. </span>Generally,
+                 the joints are configured so the links move in parallel planes, and the assembly 
+                 is called a planar four-bar linkage.</p>
+    </div> 
+        <div class="main">
+        <div class="inputs">
+                <div class="link">
+                    <h3>Link 1(L1)</h3>
+                    <input class="input" id="input1"type="number" placeholder="0">
+                    <span>cm</span>
+                </div>
+                <div class="link">
+                    <h3>Link 2(L2)</h3>
+                    <input class="input" id="input2" type="number" placeholder="0">
+                <span>cm</span>
+                </div>
+                <div class="link">
+                    <h3>Link 3(L3)</h3>
+                    <input class="input" id="input3" type="number" placeholder="0">
+                    <span>cm</span>
+                </div>
+                <div class="link">
+                    <h3>Link 4(L4)</h3>
+                    <input class="input" id="input4" type="number" placeholder="0">
+                    <span>cm</span>
+                </div>
+                <div class="check">
+                <button class="check" id="button" onclick="validateandstore()">CHECK GRASHOFF</button>
+                <p id="para">The mechanism is grashoff or not??</p>
+                </div>
+            </div>
+        <div>
+        </div>
+        </div>
+</div>
+    <div>
+        <div class="position">
+            <h3>Enter the Input Angle</h3>
+            <div class="link">
+                <h3>theta 2</h3>
+                <input class="input" id="input5" type="number" placeholder="0">
+                <span>deg</span>
+            </div>
+            <div class="check" id="value">
+                <button class="check" id="button" onclick="outputangle()">Output Angle</button>
+                <p id="para1">The output is??</p>
+                </div>
+        </div>
+        <div class="velocity">
+            <h3>Enter the Input angle & angular velocity of link 2</h3>
+            <div class="boxes">
+            <div class="link">
+                <h3>omega 2</h3>
+                <input class="input" id="input6" type="number" placeholder="0">
+                <span>cm/s</span>
+            </div>
+            </div>
+            <div class="check" id="value">
+                <button class="check" id="button" onclick="angularvelocity()">Angular Velocity</button>
+                <p id="para2">The angular velocity is??</p>
+                </div>
+
+
+        </div>
+    </div>
+
+
+    <script src="rrrr.js"></script>
+</body>
+</html>
