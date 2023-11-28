@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Manrope:wght@700&family=Nosifer&family=Playpen+Sans&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Nosifer', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+}
+body{
+    display: flex;
+    padding-top:20px;
+    justify-content: center;
+    background-color: #3c86ce;
+}
+.grashoff{
+    display: flex;
+    justify-content: center;
+    height:260px;
+    position:relative;
+    top:-50px;
+    left:-50px;
+    padding-left:6px;
+    width:800px;
+    background:aliceblue;
+    align-items:center;
+    border-radius:20px 20px 70px 20px;
+    box-shadow:3px 3px 6px 0 black;
+   
+}
+ img{
+    width:400px;
+    height:250px;
+ }
+ p span{
+    font-weight: bold;
+    color:#3c86ce;
+ }
+ .grashoff p{
+    width:500px;
+    margin:12px 0 12px 20px;
+    background-color:aliceblue;
+    margin-right:12px;
+    
+}
+.position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    height:280px;
+    width:340px;
+    padding:3px;
+    background-color:aliceblue;
+    border-radius:20px 20px 20px 60px;
+    box-shadow:3px 3px 6px 0 black;
+    margin:15px  0 12px 24px;
+    margin-right:23px;
+    position:relative;
+    top:-30px;
+    left:-35px;
+}
+#input5{
+    position:relative;
+    left:-20px; 
+    top:5px;
+    margin-bottom:12px;  
+}
+.position .link span{
+    top:-42px;
+left:75px;
+}
+.velocity{
+    padding:3px;
+    position: relative;
+    top:-15px;
+    left:-30px;
+    height: 270px;
+    width:400px;
+    background-color:aliceblue;
+    border-radius:60px 20px 20px 20px;
+    box-shadow:3px 3px 6px 0 black;
+    margin:12px 0 12px 12px;
+}
+.velocity h3{
+    position: relative;
+    top:10px;
+    left:10px;
+    font-size:15px;
+    padding:10px;
+}
+.velocity .link span{
+    left:80px;
+    top:-42px;
+}
+.boxes{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+button{
+    display:block;
+    background:white;
+    color:#3c86ec;
+    height:35px;
+    width:140px;
+    border:none;
+    margin-right:20px;
+    border-radius:4px;
+    font-size:20px;  
+    font-weight:bold;   
+    cursor:pointer;
+}
+h2{
+    font-size:20px;
+}
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#3c86ec;
+}
+.inputs{
+    position:relative;
+    top:-20px;
+    display:flex;
+    flex-wrap:wrap;
+    height:220px;
+    width: 700px;
+    box-shadow:3px 3px 6px 0 black;
+    background-color:aliceblue;
+    border-radius:20px 60px 20px 20px;
+}
+.main{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.video{
+    position:relative;
+    left:20px;
+    height:300px;
+    width:300px;
+}
+.check p{
+    height:40px;
+    display:flex;
+    text-align: center;
+    align-items:center;
+    width:90%;
+    padding-left: 12px;
+    background-color: #3c86ce;
+    border-radius:0 20px 20px 0;
+    margin-left:1px;
+    color:white;
+}
+.link{
+    position: relative;
+    top:12px;
+    left:12px;
+    display:flex;
+    flex-direction:column;
+    margin:6px;
+}
+.link input{
+    height:15px;
+    padding:12px;
+    width:120px;
+    color:black;
+    font-size:15px;
+    margin:0 3px;
+    border:3px solid #3c86ec;
+    border-radius:27px;
+}
+.link h3{
+    position:relative;
+    right:-20px;
+    font-size:15px;
+    margin-bottom:0px;
+}
+.link input:hover{
+    transform:scale(1.02);
+}
+.link span{
+    position:relative;
+    top:-35px;
+    left:110px;
+}
+.velocity input{
+     position:relative;
+     left:-18px;
+     margin-bottom:10px;
+}
+.boxes span{
+    top:-50px;
+}
+.check{
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width:100%;
+}
+.check h6{
+    font-size:15px;
+}
+.check button{
+    position:relative;
+    top:-16px;
+    background-color:#3c86ec;
+    color:white;
+    padding-top:3px;
+    height:30px;
+    width: 205px;
+    border-radius:27px;
+    font-size:15px;
+    cursor:pointer;
+}
