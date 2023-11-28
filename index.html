@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a>TOM VIRTUAL LIBRARY</a>
+        </div>
+        <div class="nav">
+            <a href="rrrr.html">RRRR</a>
+            <a href="rrrp.html">RRRP</a>
+            <a href="rrrrp.html">RRRRP</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="box">
+            <img class="img" src="logo.jpg">
+        <h2>WELCOME TO TOM VIRTUAL LIBRARY</h2>
+        <img>
+        <p>The<span> TOM Virtual Lab project</span> represents a groundbreaking initiative, 
+            utilizing HTML, CSS, and JavaScript to create an interactive web application 
+            dedicated to reinforcing students' comprehension of <span>displacement, velocity, 
+            and acceleration analysis </span>within engineering dynamics.</p>
+
+           <p>The web app employs <span>analytical solutions </span>as the foundation for simulations, 
+            ensuring accuracy and reliability in its dynamic analyses. Although real-time 
+            interaction with simulations is currently limited to sample scenarios, students 
+            can customize analyses for different mechanisms<span>(RRRR, RRRP, RRRRP) </span>by inputting
+             link lengths.
+            </p>
+        </div>
+        <div class="box">
+            <video autoplay muted>
+                <source src="rrr.mp4">
+              </video>  
+            <h2>RRRR</h2>
+          <p>In the study of mechanisms,<span> a four-bar linkage</span>, also called a four-bar, 
+            is the simplest closed-chain movable linkage. It consists of <span>four bodies</span>, 
+            called bars or links, connected in a loop by<span> four joints. </span>Generally,
+             the joints are configured so the links move in parallel planes, and the assembly 
+             is called a planar four-bar linkage.</p>
+             <button id="button1">DO ANALYSIS</button>
+        </div>
+        <div class="box">
+            <video autoplay muted>
+                <source src="rrrp.mp4">
+            </video>
+            <h2>RRRP</h2>
+            <p>It is denoted as <span>RRRP</span>,
+                constructed from four links 
+                connected by <span>three revolute joints 
+                and one prismatic joint</span>. The slider-crank
+                 linkage (RRRP) is one type of arrangement
+                  such that one link is a crank, which is 
+                  then <span>connected to a slider</span>by a
+                   connecting rod.</p>
+                   <button id="button2">DO ANALYSIS</button>
+        </div>
+        <div class="box">
+            <video autoplay muted>
+                <source src="rrrrp.mp4">
+            </video>
+            <h2>RRRRP</h2>
+            <p>The "rrrrp chain mechanism" is characterized by its configuration 
+                of <span>four revolute pairs and one prismatic pair.</span> In this mechanism, 
+                each revolute pair allows <span>rotational movement </span>around a joint, while the
+                 prismatic pair permits <span>translational motion</span> along a specified axis. 
+                 This combination of joints facilitates a <span>diverse range of movements</span>,
+                  making the mechanism suitable for various applications such as 
+                  robotic systems, mechanical linkages, or machinery.</p>
+                  <button id="button3">DO ANALYSIS</button>
+            
+        </div>
+       
+    </div>
+    <script>
+        const button1=document.getElementById("button1");
+        button1.addEventListener("click",function link(){
+            window.location.href="rrrr.html";
+        });
+        const button2=document.getElementById("button2");
+        button1.addEventListener("click",function link(){
+            window.location.href="rrrr.html";
+        });
+        const button3=document.getElementById("button3");
+        button1.addEventListener("click",function link(){
+            window.location.href="rrrr.html";
+        });
+    </script>
+</body>
+</html>
