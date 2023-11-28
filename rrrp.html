@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rrrp.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="grashoff">
+            <img src="ThreeBarChain.png">
+            <p>It is denoted as <span>RRRP</span>,
+                 constructed from four links 
+                 connected by <span>three revolute joints 
+                 and one prismatic joint</span>. The slider-crank
+                  linkage (RRRP) is one type of arrangement
+                   such that one link is a crank, which is 
+                   then <span>connected to a slider</span>by a
+                    connecting rod. </p>
+    </div> 
+        <div class="main">
+        <div class="inputs">
+                <div class="link">
+                    <h3>Link 1(L2)</h3>
+                    <input class="input" id="input1"type="number" placeholder="0">
+                    <span>cm</span>
+                </div>
+                <div class="link">
+                    <h3>Link 2(L3)</h3>
+                    <input class="input" id="input2" type="number" placeholder="0">
+                <span>cm</span>
+                </div>
+                <div class="link">
+                    <h3>e</h3>
+                    <input class="input" id="input3" type="number" placeholder="0">
+                    <span>cm</span>
+                </div>
+                <div class="check">
+                <button class="check" id="button" onclick="validateandstore()">CHECK GRASHOFF</button>
+                <p id="para">The mechanism is grashoff or not??</p>
+                </div>
+            </div>
+        <div>
+        </div>
+        </div>
+</div>
+    <div>
+        <div class="position">
+            <h3>Enter the Input Angle</h3>
+            <div class="link">
+                <h3>theta 2</h3>
+                <input class="input" id="input5" type="number" placeholder="0">
+                <span>deg</span>
+            </div>
+            <div class="check" id="value">
+                <button class="check" id="button" onclick="sliderlength()">Slider Length</button>
+                <p id="para1">The slider length is??</p>
+                </div>
+        </div>
+        <div class="velocity">
+            <h3>Enter the angular velocity of link 2</h3>
+            <div class="boxes">
+            <div class="link">
+                <h3>omega 2</h3>
+                <input class="input" id="input6" type="number" placeholder="0">
+                <span>cm/s</span>
+            </div>
+            </div>
+            <div class="check" id="value">
+                <button class="check" id="button" onclick="velocity()">Angular Velocity</button>
+                <p id="para2">The velocity of slider is??</p>
+                </div>
+        </div>
+    </div>
+
+
+    <script src="rrrp.js"></script>
+</body>
+</html>
