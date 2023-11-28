@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rrrrp.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="grashoff">
+            <img src="4r1p.png">
+            <p>The "rrrrp chain mechanism" is characterized by its configuration 
+                of <span>four revolute pairs and one prismatic pair.</span> In this mechanism, 
+                each revolute pair allows <span>rotational movement </span>around a joint, while the
+                 prismatic pair permits <span>translational motion</span> along a specified axis. 
+                 This combination of joints facilitates a <span>diverse range of movements</span>,
+            </p>
+    </div> 
+        <div class="main">
+        <div class="inputs">
+                <div class="link">
+                    <h3>Link 1(L1)</h3>
+                    <input class="input" id="input1"type="number" placeholder="0">
+                    <span>cm</span>
+                </div>
+                <div class="link">
+                    <h3>Link 2(L2)</h3>
+                    <input class="input" id="input2" type="number" placeholder="0">
+                <span>cm</span>
+                </div>
+                <div class="link">
+                    <h3>Link 3(L3)</h3>
+                    <input class="input" id="input3" type="number" placeholder="0">
+                    <span>cm</span>
+                </div>
+                <div class="link">
+                    <h3>Link 4(L4)</h3>
+                    <input class="input" id="input4" type="number" placeholder="0">
+                    <span>cm</span>
+                </div>
+                <div class="link">
+                    <h3>Link 5(L5)</h3>
+                    <input class="input" id="input5" type="number" placeholder="0">
+                    <span id="span">cm</span>
+                </div>
+                <div class="check">
+                <button class="check" id="button" onclick="validateandstore()">CHECK GRASHOFF</button>
+                <p id="para">The mechanism is grashoff or not??</p>
+                </div>
+            </div>
+        <div>
+        </div>
+        </div>
+</div>
+    <div>
+        <div class="position">
+            <h3>Enter the Input Angle</h3>
+            <div class="link">
+                <h3>theta 2</h3>
+                <input class="input" id="input6" type="number" placeholder="0">
+                <span>deg</span>
+            </div>
+            <div class="check" id="value">
+                <button class="check" id="button" onclick="outputangle()">Output Angle</button>
+                <p id="para1">The output is??</p>
+                </div>
+        </div>
+        <div class="velocity">
+            <h3>Enter the input angle again</h3>
+            <div class="boxes">
+            <div class="link">
+                <h3>theta 2</h3>
+                <input class="input" id="input7" type="number" placeholder="0">
+                <span>deg</span>
+            </div>
+            </div>
+            <div class="check" id="value">
+                <button class="check" id="button" onclick="sliderlength()">Slider Length</button>
+                <p id="para2">The slider Length is??</p>
+                </div>
+
+
+        </div>
+    </div>
+
+
+    <script src="rrrrp.js"></script>
+</body>
+</html>
